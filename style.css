@@ -8,11 +8,64 @@ img {
     max-width: 100%;
 }
 
-.homepageMain {
-    display: flex;
+h1 {
+    filter: drop-shadow(5px 5px 3px black);
+    text-shadow: -.5px 0 white, 0 .5px white, .5px 0 white, 0 -.5px white;
 }
 
-.skull {
-    background: linear-gradient(rgba(30, 9, 110, 0.8),rgba(30, 9, 110, 0.8)),            no-repeat center/cover url(skullWall.jpg);
-    min-height: 300px;
+.footerCont {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+}
+
+body {
+    padding: 2rem 0; 
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: rgba(49, 8, 146, 0);
+  }
+
+
+  .siteNav {
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .navList {
+      list-style-type: none;
+  }
+
+
+.homepageMain {
+    background: linear-gradient(rgba(255, 255, 255, 1.0),  rgba(255, 255, 255, 0.1),  rgba(255, 255, 255, 1.0)),            no-repeat center/cover url(typing-background.jpg);
+}
+
+.mainP {
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(rgba(49, 8, 146, 0.6), 90%,  rgba(49, 8, 146, 0));
+    padding: 10px;
+}
+
+footer {
+    background: linear-gradient(rgba(49, 8, 146, 0), 10%,  rgba(49, 8, 146, .6));
+    padding: 10px;
+}
+
+p {
+    padding: .5rem 0;
+}
+
+.contactUs {
+    align-self: center;
+}
+
+.footerImg {
+    border-radius: 10%;
+    border: 1px solid white;
+    filter: drop-shadow(5px 5px 3px black);
 }
