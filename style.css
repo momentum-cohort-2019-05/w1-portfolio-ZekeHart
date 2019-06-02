@@ -37,6 +37,14 @@ body {
       list-style-type: none;
   }
 
+  a:link {
+      color: white;
+  }
+
+  a:visited {
+      color: antiquewhite;
+  }
+
 
 .homepageMain {
     background: linear-gradient(rgba(255, 255, 255, 1.0),  rgba(255, 255, 255, 0.1),  rgba(255, 255, 255, 1.0)),            no-repeat center/cover url(typing-background.jpg);
@@ -67,5 +75,13 @@ p {
 .footerImg {
     border-radius: 10%;
     border: 1px solid white;
+    filter: drop-shadow(5px 5px 3px black);
+}
+
+.navTitle > summary {
+    padding: 4px;
+    /* background: radial-gradient(rgba(49, 8, 146, .8), rgba(49, 8, 146, 0)); */
+    font-size: 18px;
+    color: white;
     filter: drop-shadow(5px 5px 3px black);
 }
