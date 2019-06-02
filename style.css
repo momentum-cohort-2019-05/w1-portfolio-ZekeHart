@@ -25,25 +25,25 @@ body {
     margin: 0 auto;
     max-width: 100%;
     background-color: rgba(49, 8, 146, 0);
-  }
+}
 
 
-  .siteNav {
-      display: flex;
-      justify-content: flex-end;
-  }
+.siteNav {
+    display: flex;
+    justify-content: flex-end;
+}
 
-  .navList {
-      list-style-type: none;
-  }
+.navList {
+    list-style-type: none;
+}
 
-  a:link {
-      color: white;
-  }
+a:link {
+    color: white;
+}
 
-  a:visited {
-      color: antiquewhite;
-  }
+a:visited {
+    color: antiquewhite;
+}
 
 
 .homepageMain {
@@ -84,4 +84,8 @@ p {
     font-size: 18px;
     color: white;
     filter: drop-shadow(5px 5px 3px black);
+}
+
+.skillsP {
+    padding: 1px;
 }
